@@ -8,3 +8,6 @@
 {"ts":1366909403814,"patch":[[{"diffs":[[0,"\n               "],[1," |"],[0," <%= link_to \"Ed"]],"start1":349,"start2":349,"length1":32,"length2":34}]],"length":606,"saved":false}
 {"ts":1366909420041,"patch":[[{"diffs":[[0,"</div>\n\n"],[1,"<%= link_to 'New Status', new_status_path %>\n"],[0,"\n<% @sta"]],"start1":61,"start2":61,"length1":16,"length2":61},{"diffs":[[0," %>\n"],[-1,"\n\n<%= link_to 'New Status', new_status_path %>\n"]],"start1":600,"start2":600,"length1":51,"length2":4}]],"length":604,"saved":false}
 {"ts":1366910331768,"patch":[[{"diffs":[[0,"tus_path"],[1,", class: \"btn btn-success\""],[0," %>\n\n<% "]],"start1":102,"start2":102,"length1":16,"length2":42}]],"length":630,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1366926883268,"patch":[[{"diffs":[[0,"ong>"],[-1,"<%= status.name %>"],[1,"Name"],[0,"</st"]],"start1":211,"start2":211,"length1":26,"length2":12}]],"length":616,"saved":false}
+{"ts":1366928432942,"patch":[[{"diffs":[[0,"ong>"],[-1,"Name"],[1," <%= @status.user.first_name %> "],[0,"</st"]],"start1":211,"start2":211,"length1":12,"length2":40}]],"length":644,"saved":false}
+{"ts":1366928794009,"patch":[[{"diffs":[[0,"er.f"],[-1,"irst"],[1,"ull"],[0,"_nam"]],"start1":230,"start2":230,"length1":12,"length2":11}]],"length":643,"saved":false}
