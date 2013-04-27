@@ -3,3 +3,6 @@
 {"contributors":[],"silentsave":false,"ts":1366928775505,"patch":[[{"diffs":[[0,", :body\n"],[1,"  \n  def fill_name\n      first_name + \" \" + last_name\nend\n  \n"],[0,"end\n"]],"start1":495,"start2":495,"length1":12,"length2":73}]],"length":568,"saved":false}
 {"ts":1366928779570,"patch":[[{"diffs":[[0,"\n  def f"],[-1,"i"],[1,"u"],[0,"ll_name\n"]],"start1":505,"start2":505,"length1":17,"length2":17}]],"length":568,"saved":false}
 {"ts":1366928880988,"patch":[[{"diffs":[[0,"body\n  \n"],[1,"  has_many :statuses\n  \n"],[0,"  def fu"]],"start1":498,"start2":498,"length1":16,"length2":40}]],"length":592,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1367074019985,"patch":[[{"diffs":[[0,"body\n  \n"],[1,"  validates :first_name \n  \n"],[0,"  has_ma"]],"start1":498,"start2":498,"length1":16,"length2":44}]],"length":620,"saved":false}
+{"ts":1367074086559,"patch":[[{"diffs":[[0,"rst_name"],[-1," "],[1,", :presence: true"],[0,"\n  \n  ha"]],"start1":521,"start2":521,"length1":17,"length2":33}]],"length":636,"saved":false}
+{"ts":1367074098044,"patch":[[{"diffs":[[0,"e: true\n"],[1,"  validates :last_name, :presence: true\n  validates :profile_name, :presence: true\n"],[0,"  \n  has"]],"start1":539,"start2":539,"length1":16,"length2":99}]],"length":719,"saved":false}
