@@ -1,24 +1,36 @@
 require 'test_helper'
 
 class UserTest < ActiveSupport::TestCase
-  test "a user should enterr a firts name" do
+  test "a user should enter a firts name" do
       user  = User.new
       assert !user.save
       assert !user.errors[:first_name].empty?
   end
   
   
-  test "a user should enterr a last name" do
+  test "a user should enter a last name" do
       user  = User.new
       assert !user.save
       assert !user.errors[:last_name].empty?
   end
   
-  test "a user should enterr a profile name" do
+  test "a user should enter a profile name" do
       user  = User.new
       assert !user.save
       assert !user.errors[:profile_name].empty?
   end
   
+  
+  test "a user should have a unique profile name"
+      user  = User.new
+      user.profile_name = "Jasone"
+      user.first_name = "Json"
+      user.last_name = "Seifer"
+      user.password_confirmation = "pass"
+      user.password = "pass"
+      assert !user.save
+      puts user.errors.inspect
+      assert !user.errors[:profile_name].empty?
+  end
   
 end
